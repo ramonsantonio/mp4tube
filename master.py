@@ -6,7 +6,6 @@ from tkinter.messagebox import showinfo
 from tkinter.ttk import Treeview
 from pytube import YouTube
 from tkinter.filedialog import askdirectory
-#import moviepy.editor as mp
 import re
 import os
 import webbrowser
