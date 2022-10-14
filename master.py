@@ -83,21 +83,8 @@ label_opc = tk.Label (frame_campus, width=30, height=2, text="Clicar em 'Downloa
 label_opc.place(x=10, y=100)
 
 
-'''
 ########### Funções Download
 
-def mp3(i): # Opção de Download em MP3
-    YouTube (i).streams.first().download()
-    yt  =  YouTube (i) 
-    yt.streams
-    print('TERMINOU O DOWNLOAD EM MP3...')
-    messagebox.showinfo( "CONVERSOR YOUTUBE", "O seu download MP3 terminou!")
-    
-
-botao_mp4 = tk.Button(frame_campus, width=8, text='MP3', font='poppins, 10', bg=cor5, fg=cor2,command=lambda: mp3(entry_url.get()))
-botao_mp4.place(x=10, y= 150)
-
-'''
 
 
 def mp4(i):# Opção de Download em MP4
@@ -119,20 +106,6 @@ botao_hd = tk.Button(frame_campus, width=15, text='DOWNLOAD', font='poppins, 10'
 botao_hd.place(x=10, y= 150)
 
 
-
-
-'''
-label_arq = tk.Label (frame_campus, width=30, height=2, text="Fazendo Donwload...", font='Poppins 12', fg=cor2, bg=cor1, anchor=tk.W)
-label_arq.place(x=10, y=200)
-'''
-
-'''
-########## Definindo a qualidade do arquivo 
-
-label_arq = tk.Label (frame_campus, width=30, height=2, text="Defina a qualidade do arquivo", font='Poppins 12', fg=cor2, bg=cor1, anchor=tk.W)
-label_arq.place(x=10, y=200)
-
-'''
 
 
 
