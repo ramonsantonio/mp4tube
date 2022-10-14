@@ -46,7 +46,7 @@ frame_campus.grid(row=1, column=0, padx=0, pady=1, sticky=tk.NSEW)
 
 
 # tk.Label title
-title_label = tk.Label(frame_title, width=22, text='CONVERSOR   YOUTUBE', font='Poppins, 25', fg=cor2, bg=cor5)
+title_label = tk.Label(frame_title, width=22, text='mp4tube', font='Poppins, 25', fg=cor2, bg=cor5)
 title_label.place(x=85, y=7)
 
 # Label copyright
