@@ -4,7 +4,7 @@ from tkinter import filedialog as fd
 from tkinter import messagebox
 from tkinter.messagebox import showinfo
 from tkinter.ttk import Treeview
-from pytube import YouTube
+
 from tkinter.filedialog import askdirectory
 import re
 import os
